@@ -1,9 +1,9 @@
 # lita-hangout
 
-[![Build Status](https://travis-ci.org/brodock/lita-hangout.png?branch=master)](https://travis-ci.org/brodock/lita-hangout)
-[![Coverage Status](https://coveralls.io/repos/brodock/lita-hangout/badge.png)](https://coveralls.io/r/brodock/lita-hangout)
+[![Build Status](https://travis-ci.org/brodock/lita-hangout.svg?branch=master)](https://travis-ci.org/brodock/lita-hangout)
+[![Coverage Status](https://coveralls.io/repos/brodock/lita-hangout/badge.svg?branch=master)](https://coveralls.io/r/brodock/lita-hangout?branch=master)
 
-TODO: Add a description of the plugin.
+Lita handler plugin to generate Google+ Hangout URLs
 
 ## Installation
 
@@ -17,7 +17,7 @@ gem "lita-hangout"
 
 You must define a Google Apps domain settings to use this plugin:
 
-```
+```ruby
   config.handlers.hangout.domain='exampple.com'
 ```
 
