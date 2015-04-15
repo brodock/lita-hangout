@@ -3,7 +3,7 @@ module Lita
     class Hangout < Handler
       HANGOUT_PREFIX = 'https://plus.google.com/hangouts/_/'
 
-      config :domain
+      config :domain, type: String, required: true
 
       route(/hangout$/i, :hangout, command: true, help: {"hangout" => "Generates a random Google+ Hangout URL"})
       route(/hangout me$/i, :hangout_me, command: true, help: {"hangout me" => "Generates a Google+ Hangout URL based on user name"})

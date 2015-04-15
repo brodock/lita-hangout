@@ -9,3 +9,7 @@ We follow [Keep a Changelog](http://keepachangelog.com/) format.
 - Initial plugin import with hangout, hangout me and hangout me
   <subject> commands support
 - RSpec, Travis CI and Coveralls support
+
+## 0.1.1 - 2015-04-15
+### Changed
+- Domain config is required and validates the correct type
