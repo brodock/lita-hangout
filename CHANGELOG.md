@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 We follow [Keep a Changelog](http://keepachangelog.com/) format.
 
+## 0.2.0 - 2015-08-31
+### Added
+- Rubocop codestyle
+- I18n translations for commands
+
 ## 0.1.2 - 2015-06-21
 ### Changed
 - Better RSpec defaults (.rspec)
