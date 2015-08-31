@@ -2,3 +2,7 @@ en:
   lita:
     handlers:
       hangout:
+        help:
+          hangout: 'Generates a random Google+ Hangout URL'
+          hangout_me: 'Generates a Google+ Hangout URL based on user name'
+          hangout_me_topic: 'Generates a Google+ Hangout URL based on informed topic'

@@ -5,9 +5,10 @@ module Lita
 
       config :domain, type: String, required: true
 
-      route(/hangout$/i, :hangout, command: true, help: {"hangout" => "Generates a random Google+ Hangout URL"})
-      route(/hangout me$/i, :hangout_me, command: true, help: {"hangout me" => "Generates a Google+ Hangout URL based on user name"})
-      route(/hangout me (.+)/i, :hangout_me, command: true, help: {"hangout me" => "Generates a Google+ Hangout URL based on user name"})
+      route(/hangout$/i, :hangout, command: true, help: { 'hangout' => t('help.hangout') })
+      route(/hangout me$/i, :hangout_me, command: true, help: { 'hangout me' => t('help.hangout_me') })
+      route(/hangout me (.+)/i, :hangout_me, command: true,
+                                             help: { 'hangout me <topic>' => t('help.hangout_me_topic') })
 
       def hangout(response)
         response.reply hangout_url(Time.now.to_i)
@@ -27,7 +28,7 @@ module Lita
         URI.join(HANGOUT_PREFIX, "#{config.domain}/", permalink(sufix)).to_s
       end
 
-      def permalink(subject='')
+      def permalink(subject = '')
         subject.to_s.gsub(/[^[:alnum:]]/, ' ').strip.gsub(/\W+/, '-')
       end
     end
