@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-hangout'
-  spec.version       = '0.1.2'
+  spec.version       = '0.2.0'
   spec.authors       = ['Gabriel Mazetto']
   spec.email         = ['brodock@gmail.com']
   spec.description   = 'Generates Google+ Hangout URL for GoogleApps'
