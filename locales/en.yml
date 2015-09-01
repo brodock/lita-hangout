@@ -6,3 +6,6 @@ en:
           hangout: 'Generates a random Google+ Hangout URL'
           hangout_me: 'Generates a Google+ Hangout URL based on user name'
           hangout_me_topic: 'Generates a Google+ Hangout URL based on informed topic'
+        messages:
+          hangout_me_user: 'Hangout with %{name}'
+          hangout_me_topic: 'Hangout about "%{topic}"'
