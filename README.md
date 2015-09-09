@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/brodock/lita-hangout.svg?branch=master)](https://travis-ci.org/brodock/lita-hangout)
 [![Coverage Status](https://coveralls.io/repos/brodock/lita-hangout/badge.svg?branch=master)](https://coveralls.io/r/brodock/lita-hangout?branch=master)
 [![Code Climate](https://codeclimate.com/github/brodock/lita-hangout/badges/gpa.svg)](https://codeclimate.com/github/brodock/lita-hangout)
+[![Inch CI](http://inch-ci.org/github/brodock/lita-hangout.svg?branch=master)](http://inch-ci.org/github/brodock/lita-hangout)
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/brodock/lita-hangout/master)
 
 Lita handler plugin to generate Google+ Hangout URLs
 
